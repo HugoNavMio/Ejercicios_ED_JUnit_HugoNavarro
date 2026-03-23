@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.PlayerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-03-11T19:14:19.536Z" hostname="HugoNavMio" time="0.021">
+<testsuite name="org.example.PlayerTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-03-23T18:12:41.645Z" hostname="HugoNavMio" time="0.047">
   <properties/>
-  <testcase name="curarAUnMuertoNoFunciona()" classname="org.example.PlayerTest" time="0.017"/>
+  <testcase name="recibirDanyoNoPermiteCantidadNegativa()" classname="org.example.PlayerTest" time="0.017"/>
+  <testcase name="curarAUnMuertoNoFunciona()" classname="org.example.PlayerTest" time="0.002"/>
+  <testcase name="constructorInicializaInstanciaCorrectamente()" classname="org.example.PlayerTest" time="0.002"/>
   <testcase name="curarNoSuperaMaximo()" classname="org.example.PlayerTest" time="0.001"/>
-  <testcase name="curarSumaVida()" classname="org.example.PlayerTest" time="0.001"/>
+  <testcase name="constructorNoPermiteSuperarVidaMaxima()" classname="org.example.PlayerTest" time="0.001"/>
+  <testcase name="recibirDanyoReduceVida()" classname="org.example.PlayerTest" time="0.001"/>
+  <testcase name="constructorNoPermiteAtaqueNegativo()" classname="org.example.PlayerTest" time="0.002"/>
+  <testcase name="curarSumaVida()" classname="org.example.PlayerTest" time="0.003"/>
+  <testcase name="constructorNoPermiteVidaNegativa()" classname="org.example.PlayerTest" time="0.003"/>
+  <testcase name="recibirDanyoNoPermiteVidaNegativa()" classname="org.example.PlayerTest" time="0.002"/>
   <system-out><![CDATA[¡Comienzan los tests!
 ¡Finalizan los tests!
 ]]></system-out>

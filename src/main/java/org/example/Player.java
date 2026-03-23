@@ -34,6 +34,9 @@ public class Player {
 
     // Recibe daño teniendo en cuenta la defensa
     public void recibirDanyo(int cantidad) {
+        if (cantidad < 0) {
+            throw new IllegalArgumentException();
+        }
         vida -= cantidad;
         if (vida < 0) {
             vida = 0; // Ha muerto
