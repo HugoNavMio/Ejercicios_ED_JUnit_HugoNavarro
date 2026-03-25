@@ -9,10 +9,10 @@ public class Player {
 
     public Player(String nombre, int vida, int ataque) {
         if (vida < 0 || vida > 100) {
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("ERROR: La vida tiene que ser entre 1 o 100.");
         }
-        if (ataque <= 0 || ataque >= 100) {
-            throw new IllegalArgumentException();
+        if (ataque <= 0 || ataque > 100) {
+            throw new IllegalArgumentException("ERROR: El ataque tiene que ser entre 0 o 100.");
         }
         this.nombre = nombre;
         this.vida = vida;
@@ -35,7 +35,7 @@ public class Player {
     // Recibe daño teniendo en cuenta la defensa
     public void recibirDanyo(int cantidad) {
         if (cantidad < 0 || cantidad > 100) {
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("ERROR: El daño tiene que ser entre 1 o 100.");
         }
         vida -= cantidad;
         if (vida < 0) {

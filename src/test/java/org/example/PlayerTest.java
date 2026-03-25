@@ -68,7 +68,7 @@ class PlayerTest {
     }
 
     @Test
-    void recibirDanyoNoPermiteMasDanyo() {
+    void recibirDanyoNoSuperaMaximo() {
         int danyo = 1000;
         assertThrows(IllegalArgumentException.class, () -> player.recibirDanyo(danyo));
     }
