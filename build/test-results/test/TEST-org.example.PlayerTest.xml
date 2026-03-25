@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.PlayerTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-03-23T18:12:41.645Z" hostname="HugoNavMio" time="0.047">
+<testsuite name="org.example.PlayerTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-03-25T17:35:59.627Z" hostname="HugoNavMio" time="0.042">
   <properties/>
-  <testcase name="recibirDanyoNoPermiteCantidadNegativa()" classname="org.example.PlayerTest" time="0.017"/>
-  <testcase name="curarAUnMuertoNoFunciona()" classname="org.example.PlayerTest" time="0.002"/>
+  <testcase name="recibirDanyoNoPermiteCantidadNegativa()" classname="org.example.PlayerTest" time="0.015"/>
+  <testcase name="curarAUnMuertoNoFunciona()" classname="org.example.PlayerTest" time="0.001"/>
   <testcase name="constructorInicializaInstanciaCorrectamente()" classname="org.example.PlayerTest" time="0.002"/>
+  <testcase name="constructorNoPermiteSuperarAtaqueMaximo()" classname="org.example.PlayerTest" time="0.001"/>
   <testcase name="curarNoSuperaMaximo()" classname="org.example.PlayerTest" time="0.001"/>
   <testcase name="constructorNoPermiteSuperarVidaMaxima()" classname="org.example.PlayerTest" time="0.001"/>
   <testcase name="recibirDanyoReduceVida()" classname="org.example.PlayerTest" time="0.001"/>
   <testcase name="constructorNoPermiteAtaqueNegativo()" classname="org.example.PlayerTest" time="0.002"/>
-  <testcase name="curarSumaVida()" classname="org.example.PlayerTest" time="0.003"/>
-  <testcase name="constructorNoPermiteVidaNegativa()" classname="org.example.PlayerTest" time="0.003"/>
-  <testcase name="recibirDanyoNoPermiteVidaNegativa()" classname="org.example.PlayerTest" time="0.002"/>
+  <testcase name="recibirDanyoNoPermiteMasDanyo()" classname="org.example.PlayerTest" time="0.002"/>
+  <testcase name="curarSumaVida()" classname="org.example.PlayerTest" time="0.001"/>
+  <testcase name="constructorNoPermiteVidaNegativa()" classname="org.example.PlayerTest" time="0.001"/>
+  <testcase name="recibirDanyoNoPermiteVidaNegativa()" classname="org.example.PlayerTest" time="0.001"/>
   <system-out><![CDATA[¡Comienzan los tests!
 ¡Finalizan los tests!
 ]]></system-out>

@@ -42,6 +42,13 @@ class PlayerTest {
     }
 
     @Test
+    void constructorNoPermiteSuperarAtaqueMaximo() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            player = new Player("Antonio", 50, 200);
+        });
+    }
+
+    @Test
     void recibirDanyoNoPermiteVidaNegativa() {
         player.recibirDanyo(player.getVida() + 10);
         assertEquals(0, player.getVida());
@@ -57,6 +64,12 @@ class PlayerTest {
     @Test
     void recibirDanyoNoPermiteCantidadNegativa() {
         int danyo = -10;
+        assertThrows(IllegalArgumentException.class, () -> player.recibirDanyo(danyo));
+    }
+
+    @Test
+    void recibirDanyoNoPermiteMasDanyo() {
+        int danyo = 1000;
         assertThrows(IllegalArgumentException.class, () -> player.recibirDanyo(danyo));
     }
 
